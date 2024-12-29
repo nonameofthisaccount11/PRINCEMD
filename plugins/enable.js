@@ -153,7 +153,7 @@ if (!isROwner) {
 global.dfail('rowner', m, conn)
 throw false
 }
-bot.viewOnce = isEnable
+chat.viewOnce = isEnable
 break
 
 		  case 'reacts': case 'reaction':
