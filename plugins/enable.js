@@ -143,7 +143,18 @@ global.dfail('rowner', m, conn)
 throw false
 }
 bot.viewonce = isEnable
-break	  
+break
+
+		  	case 'antiviewonce2':
+	case 'viewonce2':
+	  case 'vv2':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.viewOnce = isEnable
+break
 
 		  case 'reacts': case 'reaction':
 	case 'autoreaction': case 'reactions': case 'autoreactions':
